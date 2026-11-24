@@ -1,5 +1,7 @@
 # Signals Reforged
 
+![Version 0.1.0-beta3](https://img.shields.io/badge/version-0.1.0--beta3-6EC4A0?style=flat-square) ![NeoForge](https://img.shields.io/badge/NeoForge-F16436?style=flat-square) [![Modrinth downloads](https://img.shields.io/modrinth/dt/signals-reforged?style=flat-square&logo=modrinth&label=Modrinth&color=1BD96A)](https://modrinth.com/mod/signals-reforged) [![CurseForge downloads](https://img.shields.io/curseforge/dt/1816406?style=flat-square&logo=curseforge&label=CurseForge&color=F16436)](https://www.curseforge.com/minecraft/mc-mods/signals-reforged) [![GitHub downloads](https://img.shields.io/github/downloads/CptGummiball/SignalsReforged/total?style=flat-square&logo=github&label=GitHub)](https://github.com/CptGummiball/SignalsReforged/releases) [![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?logo=ko-fi&logoColor=white)](https://ko-fi.com/cptgummiball)
+
 Railway infrastructure for **vanilla minecarts**: the mod finds your track network by itself, routes carts to named
 stations, protects them with block, chain and path signals, throws switches, and gives you signal boxes, timetables
 and cargo logistics. No new train entities, no special track: you build with normal rails and minecarts.
