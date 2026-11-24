@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Wiki and FAQ
+    url: https://github.com/CptGummiball/SignalsReforged/wiki
+    about: Getting started, example layouts and answers to common questions.
+  - name: Example layouts
+    url: https://github.com/CptGummiball/SignalsReforged/wiki/Example-Layouts
+    about: Small working layouts for every main feature, placeable in a creative world.

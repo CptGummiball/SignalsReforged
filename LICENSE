@@ -1,0 +1,64 @@
+Signals Reforged License
+
+Copyright (c) 2026 cptgummiball. All rights reserved.
+
+"Signals Reforged" means the Minecraft mod Signals Reforged in every version and form in which cptgummiball
+publishes it: the jar files, the compiled code in them, textures, models, icons, sounds, texts, language files,
+data files (including the example layout structures) and documentation.
+
+1. Ownership
+   Signals Reforged is the property of cptgummiball. This license gives you limited rights to use it. It does not
+   transfer any ownership, copyright or other rights. All rights not expressly granted here are reserved.
+
+2. What you may do
+   a) Download Signals Reforged from its official pages: https://modrinth.com/mod/signals-reforged,
+      https://www.curseforge.com/minecraft/mc-mods/signals-reforged and the releases of
+      https://github.com/CptGummiball/SignalsReforged.
+   b) Use Signals Reforged to play Minecraft: in singleplayer, and on your own or any other server.
+   c) Show Signals Reforged in videos, streams, screenshots, reviews and guides.
+   d) Use, copy and share layouts you build with it, including the example layout structures, in your worlds.
+
+3. Modpacks
+   You may include Signals Reforged in modpacks, public or private, free or paid, and distribute it as part of such
+   a modpack, but only in its original, unmodified state: the jar files exactly as cptgummiball published them, not
+   repackaged and not altered in any way. Where the modpack platform can link to the official download instead of
+   copying the file, linking is preferred.
+
+4. What you may not do
+   Unless cptgummiball has given you written permission, you may not:
+   a) modify, adapt, translate, patch or otherwise change Signals Reforged or any part of it, or create works derived
+      from it, including modified jar files, forks, ports and re-textures;
+   b) decompile, disassemble, deobfuscate or otherwise reverse engineer Signals Reforged, or attempt to obtain its
+      source code, except where and only to the extent that applicable law expressly allows this despite this
+      restriction;
+   c) upload, mirror or distribute Signals Reforged anywhere other than as part of a modpack under section 3, or
+      offer it as your own work;
+   d) use the textures, models, icons, sounds or texts of Signals Reforged in other projects;
+   e) remove or change this license or any copyright notice.
+
+5. API for other mods
+   Signals Reforged contains a documented API for other mods: the Java package dev.cptgummiball.signalsreforged.api.
+   You may use the official Signals Reforged jar files and the API documentation as compile-only dependencies to
+   develop, compile and distribute your own mods that work together with Signals Reforged (for example rail or cart
+   adapters). Your mod may reference these classes, but must not contain them or any other part of Signals Reforged;
+   players install Signals Reforged separately. Sections 1 and 4 apply to the API in all other respects.
+
+6. No warranty
+   Signals Reforged is provided "as is", without warranty of any kind, express or implied, including warranties of
+   merchantability, fitness for a particular purpose and non-infringement. Back up your worlds.
+
+7. Limitation of liability
+   To the extent permitted by applicable law, cptgummiball is not liable for any damages arising from the use of or
+   inability to use Signals Reforged, including loss of data or of game worlds. Liability for intent and gross
+   negligence, and any liability that cannot be excluded by law, remain unaffected.
+
+8. Termination
+   If you break this license, your rights under it end automatically.
+
+9. Other
+   Signals Reforged is an unofficial, independently developed successor inspired by "Signals" by MineMaarten. It
+   contains no code and no assets from that project and is not affiliated with or endorsed by MineMaarten. It is not
+   an official Minecraft product and is not approved by or associated with Mojang or Microsoft. Minecraft's own terms
+   (EULA) also apply to its use.
+
+Questions and requests for permission: https://github.com/CptGummiball/SignalsReforged/issues

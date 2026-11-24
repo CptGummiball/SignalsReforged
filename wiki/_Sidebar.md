@@ -1,0 +1,16 @@
+**Signals Reforged**
+
+* [Home](Home)
+* [Getting Started](Getting-Started)
+* [Example Layouts](Example-Layouts)
+  * [Block signals](Layout-Block-Signals)
+  * [Junction](Layout-Junction)
+  * [Passing loop](Layout-Passing-Loop)
+  * [Rail crossing](Layout-Rail-Crossing)
+  * [Station with two platforms](Layout-Station-Platforms)
+  * [Cargo line](Layout-Cargo-Line)
+  * [Signal box and controls](Layout-Control-Room)
+  * [Special rails](Layout-Special-Rails)
+* [FAQ](FAQ)
+* [Commands and Permissions](Commands-and-Permissions)
+* [Configuration](Configuration)

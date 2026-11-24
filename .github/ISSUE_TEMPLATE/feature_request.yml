@@ -1,0 +1,49 @@
+name: Feature request
+description: Suggest a new feature or a change to an existing one.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome. Please describe the problem you want to solve, not only the solution: that makes it easier to find a design that fits Signals Reforged.
+
+        Some things are out of scope on purpose: new train entities or special track (the mod works with vanilla rails and minecarts), signals that turn green when the state is unknown, and chunk loading without an operator's permission.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+      placeholder: "On my server, trains often ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: How could it work in game? Which block, which screen, which console?
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
+      description: Can it be done today with signals, tickets, lines or redstone (detectors, repeaters, platform controllers)?
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Signals and interlocking
+        - Routing, tickets, Quick Ride
+        - Stations, platforms, timetables
+        - Signal box and consoles
+        - Cargo
+        - Carts, consists, special rails
+        - Redstone and other mods (API)
+        - Signalling Manual, wiki, example layouts
+        - Look and sound
+        - Other

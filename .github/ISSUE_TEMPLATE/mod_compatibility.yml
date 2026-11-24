@@ -1,0 +1,72 @@
+name: Mod compatibility
+description: Signals Reforged misbehaves together with another mod (rails, minecarts, trains, claims, performance mods).
+labels: ["compatibility", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Signals Reforged has not been tested together with other mods yet, so these reports help a lot.
+
+        By default the network only trusts vanilla rails and minecarts. Rails and carts of other mods are treated as unknown (signals stay at STOP) unless a server operator adds the mod id to `trustedRailNamespaces` or `trustedCartNamespaces` in the server config. Please say whether you changed these options.
+
+  - type: input
+    id: version
+    attributes:
+      label: Signals Reforged jar and NeoForge version
+      placeholder: "signalsreforged-0.1.0-beta.3.jar, NeoForge 26.3.0.109"
+    validations:
+      required: true
+
+  - type: input
+    id: other
+    attributes:
+      label: The other mod
+      description: Name, exact version and where you downloaded it.
+      placeholder: "Example Rails 2.3.1 (Modrinth)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of problem?
+      multiple: true
+      options:
+        - Its rails are not part of the network / signals stay at STOP
+        - Its minecarts or trains are not held or routed
+        - Crash on start or when placing/using something
+        - Items or carts are lost or duplicated
+        - Rendering problem
+        - Claims / protection / permissions
+        - Performance
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens, and what did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Ideally with only these two mods installed.
+    validations:
+      required: true
+
+  - type: textarea
+    id: config
+    attributes:
+      label: Changed server options
+      description: Did you change `trustedRailNamespaces`, `trustedCartNamespaces` or other options in `config/signalsreforged-local.toml`?
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and crash report
+      description: Upload `logs/latest.log` and, after a crash, the file from `crash-reports/`.
+      placeholder: Drop files here or paste a link.

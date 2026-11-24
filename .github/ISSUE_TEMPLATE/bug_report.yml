@@ -1,0 +1,112 @@
+name: Bug report
+description: Something in Signals Reforged does not work as described, crashes, or loses carts or items.
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please check the [FAQ](https://github.com/CptGummiball/SignalsReforged/wiki/FAQ) first.
+
+        Most "the signal stays red" questions are answered by right-clicking the signal: it tells you the reason (for example `BLOCK_OCCUPIED`, `NO_ROUTE` or `UNKNOWN_CHUNK`). Please add that reason to your report.
+
+        If the problem only happens together with another mod, please use the **Mod compatibility** template instead.
+
+  - type: input
+    id: version
+    attributes:
+      label: Signals Reforged jar and NeoForge version
+      description: The exact file name of the jar, and your NeoForge version (Minecraft 26.3).
+      placeholder: "signalsreforged-0.1.0-beta.3.jar, NeoForge 26.3.0.109"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where does it happen?
+      options:
+        - Singleplayer
+        - Dedicated server (multiplayer)
+        - LAN / integrated server
+        - Not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Block, chain or path signals
+        - Switch motors / junctions
+        - Routing, tickets, Quick Ride
+        - Stations, platforms, departure boards
+        - Lines and timetables
+        - Signal box, network controller, tablet
+        - Cargo (docks, buffers, hoppers, orders)
+        - Coupled carts / cart engine / chunkloader upgrade
+        - Special rails (transport, limiter, teleport, rail link, crossing)
+        - Detectors, repeaters, emergency stop
+        - Rights and roles / commands
+        - Signalling Manual / example layouts
+        - Rendering / models / textures / sounds
+        - Saving / loading / restart
+        - Performance / server lag
+        - Crash
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: Describe what you saw. If carts or items were lost or duplicated, say which and how many. The reason shown by the signal or device helps a lot.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smaller the layout, the faster it can be fixed. Screenshots of the track, and of the signal box map if you have one, help a lot. If one of the example layouts (`/place template signalsreforged:wiki/...`) shows the problem, name it.
+      placeholder: |
+        1. Place the example layout `junction`
+        2. Give a cart a ticket to Harbour
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods
+      description: The full mod list, or at least the mods involved (with versions). Write "none" for a clean install.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs, crash report, diagnostics
+      description: |
+        Please upload `logs/latest.log` and, after a crash, the file from `crash-reports/` (drag and drop into this field, or link a paste site). On a server: the server log. `/signals diagnostics export` writes a report without player names you can attach as well.
+      placeholder: Drop files here or paste a link.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I use Minecraft 26.3 with NeoForge, and the same Signals Reforged jar on the server and the client.
+          required: true
+        - label: I searched the existing issues for this problem.
+          required: true
